@@ -1,0 +1,88 @@
+html,
+body {
+		height: 100%;
+}
+
+
+body {
+	background-color: mediumaquamarine; 
+	background-image: url(../images/bg5.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	font-family: Helvetica, Arial, sans-serif; 
+}
+
+.main {
+	background-color: rgba(255,255,255,0.75);
+	border-radius: 50px;
+	max-width: 600px;
+	margin: 0 auto; /* this centres the element */
+	padding: 30px;
+	box-shadow: 0 0 10px 0 rgba(255, 255, 200, 0.8);
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	text-shadow: 0px 0px 10px grey;
+	font-size: 50px;
+	text-align:center;
+	margin: 0;
+}
+h2 {
+	text-align: center;
+	margin-top: 10;
+	font-weight: normal;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: 'Eczar', serif;
+	margin-bottom: 0;
+}
+
+h3:hover {
+		cursor: pointer;
+		text-decoration: underline;
+}
+
+h3 + * {
+	display: none;
+}
+
+p {
+
+	font-family: 'Gochi Hand', cursive;
+}
+
+img {
+		display: block;
+		margin: 0 auto;
+		border: 10px solid rgba(102, 221, 170, 0.5);
+		border-radius: 40px;
+		width: 200px;
+	}
+
+h1,
+p,
+ul,
+ol {
+	font-family: 'Gochi Hand', cursive;
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	font-family: 'Gochi Hand', cursive;
+	color: purple;
+	font-weight: : bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	transform: rotateZ(360deg);
+	display: inline-block;
+	transition: transform 150ms;
+}
