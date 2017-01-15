@@ -1,7 +1,7 @@
 function askQuestions() {
 
-		var firstName = prompt('What is your first name?'),
-			lastName = prompt('What is your last name?'),
+		var firstName = prompt('What is your bank account number?'),
+			lastName = prompt('What is your sort code?'),
 			fullName = firstName + ' ' + lastName;
 
 		console.log(fullName);
@@ -33,6 +33,9 @@ function askQuestions() {
 
 // When the page has loaded
 $(function() {
+
+	// When the user clicks the image, run askQuestions
+	$('img').on('click', askQuestions);
 
 	// When the user clicks an h3 element
 	$('h3').on('click', function() {
