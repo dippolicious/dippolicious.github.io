@@ -6,7 +6,7 @@ function askQuestions() {
 
 		console.log(fullName);
 
-		var age = prompt('How old are you?');
+		var age = prompt('Just messing with you, we still cool yeah?');
 		age = parseInt(age);
 
 		if (age >= 18) {
